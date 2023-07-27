@@ -1,0 +1,221 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(#254BE1, #254BE1, #102372);
+    height: 698px;
+}
+
+.box_title{
+    border-radius: var(--border-radius);
+    margin-top: 1%;
+    margin-left: 15.6%;
+    font-size: 20px;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    box-shadow: 0 0 2px black;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    width: 1068px;
+}
+
+.txt_title{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 1%;
+}
+
+.mid_container{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 190%;
+}
+  
+.small_container{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    overflow-y: auto;
+}
+  
+.tabella{
+    border-collapse: collapse;
+    background-color: white;
+    margin-left: 2%;
+    width: 95%;
+}
+  
+.tabella th{
+    background-color: #eee;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+    height: 80%;
+}
+
+header{
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 0 2px black;
+    text-align: center;
+    padding: 16px 16px;
+    color: #ffffff;
+    font-size: 30px;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    border-radius: 10px;
+    cursor: default;
+}
+
+.change_squadra{
+    display: block;
+    width: 100%;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    outline: none;
+    background: hsl(0, 0%, 93%);
+    font-size: 1.15rem;
+}
+
+.change_punti{
+    display: block;
+    width: 100%;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    outline: none;
+    background: hsl(0, 0%, 93%);
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+
+.change_partite{
+    display: block;
+    width: 100%;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    outline: none;
+    background: hsl(0, 0%, 93%);
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+.change_vittorie{
+    display: block;
+    width: 100%;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    outline: none;
+    background: hsl(0, 0%, 93%);
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+.change_pareggi{
+    display: block;
+    width: 100%;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    outline: none;
+    background: hsl(0, 0%, 93%);
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+.change_sconfitte{
+    display: block;
+    width: 100%;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    outline: none;
+    background: hsl(0, 0%, 93%);
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+.form_stato{
+    display: block;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    font-size: 1.25rem;
+    width: 205px;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    margin-top: 1%;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.button_change{
+    margin-left: 25%;
+    float: left;
+}
+
+.button_back{
+    margin-left: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+    .box_title{
+        margin-top: 2em;
+        margin-left: 1em;
+        width: 90%;
+    }
+
+    .container{
+        width: 105%;
+    }
+    
+    .mid_container{
+        margin-left: -1.3em;
+        overflow-x: auto;
+    }
+
+    .button{
+        margin-top: 3em;
+        font-size: 13px;
+        width: 26%;
+    }
+
+    .button_change{
+        margin-left: 10%;
+    }
+
+    .button_back{
+        margin-right: 0;
+    }
+}

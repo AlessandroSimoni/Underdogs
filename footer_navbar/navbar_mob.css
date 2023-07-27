@@ -1,0 +1,61 @@
+.nav_menu {
+    font-family: 'Quicksand', sans-serif;
+    margin: 35px auto;
+    margin-top: 0;
+    margin-left: 0;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    box-shadow: 0 0 2px black;
+    text-align: left;
+    padding: 16px 16px;
+    font-size: 20px;
+    text-decoration: none;
+    height: 3em;
+    width: 20em;
+}
+
+.nav_menu a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.form-inline{
+    float: right;
+    margin-right: 0.1em;
+}
+
+.dropdown1,
+.dropdown2,
+.dropdown3{
+    position: relative;
+    display: inline-block;
+    width: 7em;
+    cursor: default;
+}
+
+.dropdown1,
+.dropdown2{
+    float: left;
+}
+
+.glyphicon {
+    margin-left: 5em;
+    top: -45px;
+}
+
+.dropdown-menu{
+    margin-left: 8em; 
+    margin-top:-15em;
+    position: absolute;
+}
+
+.dropdown1:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown2:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown3:hover .dropdown-menu {
+    display: block;
+}

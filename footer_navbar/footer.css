@@ -1,0 +1,95 @@
+.footer{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    height: 20em;
+    width: 84.8em;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    cursor: default;
+}
+
+.container{
+    display: flex;
+}
+
+.footer,
+.mail,
+.button_container{
+    color: #ffffff;
+    text-align: center;
+}
+
+.contacts{
+    padding: 80px 200px;
+    float: left;
+}
+
+.mail:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+.mail:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button_newsletter{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 12px;
+    color: #ffffff;
+    background: #254BE1;
+    margin-top: -5%;
+    width: 20%;
+    height: 10%;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+}
+
+.button_newsletter:hover{
+    color: #ffffff;
+    background: #102372;
+    text-decoration: none;
+}
+
+.character{
+    margin-top: 5%;
+    display:flex;
+    position: relative;
+}
+
+.character:hover{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        height: auto;
+    }
+
+    .footer{
+        max-width: 100%;
+        font-size: 15px;
+    }
+
+    .contacts{
+        padding: 40px 50px;
+    }
+
+    .button_container{
+        margin-top: 0;
+    }
+
+    .button_newsletter{
+        font-size: 12px;
+        width: 15em;
+    }
+
+    .character{
+        display: none;
+    }
+}

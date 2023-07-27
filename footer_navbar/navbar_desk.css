@@ -1,0 +1,56 @@
+.nav_menu {
+    font-family: 'Quicksand', sans-serif;
+    margin: 35px auto;
+    margin-top: 0;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    box-shadow: 0 0 2px black;
+    text-align: right;
+    padding: 16px 16px;
+    font-size: 20px;
+    text-decoration: none;
+    height: 4.5em;
+    width: 80em;
+}
+
+.nav_menu a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.dropdown1,
+.dropdown2,
+.dropdown3{
+    position: relative;
+    display: inline-block;
+    width: 7em;
+    cursor: default;
+}
+
+.dropdown1,
+.dropdown2{
+    float: left;
+}
+
+.dropdown3{
+    margin-right: 3em;
+}
+
+.glyphicon {
+    margin-right: 0.3em;
+}
+
+.dropdown-menu{
+    position: absolute;
+}
+
+.dropdown1:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown2:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown3:hover .dropdown-menu {
+    display: block;
+}

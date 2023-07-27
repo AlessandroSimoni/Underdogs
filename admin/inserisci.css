@@ -1,0 +1,171 @@
+body{
+    --color-primary: #254BE1;
+    --color-primary-dark: #102372;
+    --border-radius: 4px;
+
+    height: 44.4em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(#254BE1, #254BE1, #102372);
+}
+
+.box_change,
+.box_news,
+.button,
+.box_email{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box_title{
+    border-radius: var(--border-radius);
+    margin-top: 3%;
+    margin-left: 30%;
+    font-size: 20px;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    box-shadow: 0 0 2px black;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.txt_title{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box_email{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #ffffff;
+    height: 400px;
+    width: 600px;
+    margin-top: auto;
+    margin-left: 30%;
+}
+
+.box_change{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #ffffff;
+    height: 500px;
+    width: 600px;
+    margin-top: 6%;
+    margin-left: 30%;
+}
+
+.box_news{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #ffffff;
+    height: 430px;
+    width: 550px;
+    margin-top: 6%;
+    margin-left: 32%;
+}
+
+.h2n{
+    margin-left: 35px;
+}
+
+.text{
+    margin-left: 25px;
+}
+
+.personal_data{
+    padding: 5% 21%;
+}
+
+.news_data{
+    padding: 5% 16%;
+}
+
+.form_fill,
+.form_fill2{
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: hsl(0, 0%, 93%);
+    font-size: 1.15rem;
+}
+
+.form_fill,
+.form_fill2,
+.form_prov{
+    margin-top: 5%;
+    margin-left: 2.5%;
+}
+
+.form_prov{
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    font-size: 1.25rem;
+    width: 300px;
+    margin-top: 5%;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    margin-top: 4%;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.button_change{
+    margin-left: 25%;
+    float: left;
+}
+
+.button_back{
+    margin-left: 15px;
+}
+
+.button_delete{
+    margin-right: 10%;
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .box_news,
+    .box_change{
+        margin-top: 5em;
+        margin-left: 4em;
+        width: 70%;
+        height: 60%;
+    }
+
+    .h2n{
+        margin-left: 0.5em;
+    }
+
+    .form_fill,
+    .form_fill2{
+        margin-left: -3em;
+        width: 20em;
+    }
+
+    .button{
+        margin-top: 1.5em;
+        font-size: 13px;
+        width: 26%;
+    }
+
+    .button_change{
+        margin-left: 20%;
+    }
+
+    .button_back{
+        margin-right: 0;
+    }
+}

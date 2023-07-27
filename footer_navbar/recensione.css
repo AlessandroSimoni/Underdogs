@@ -1,0 +1,187 @@
+body{
+    --color-primary: #254BE1;
+    --color-primary-dark: #102372;
+    --border-radius: 4px;
+
+    height: 42.2em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(#254BE1, #254BE1, #102372);
+}
+
+.logopng{
+    position: sticky;
+    position: fixed;
+    top: -2%;
+    left: 1.5%;
+}
+
+.button,
+.box_rec{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box_title{
+    border-radius: var(--border-radius);
+    margin-top: 8%;
+    margin-left: 30%;
+    font-size: 20px;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    box-shadow: 0 0 2px black;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.txt_title{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box_rec{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #ffffff;
+    height: 480px;
+    width: 600px;
+    margin-top: auto;
+    margin-left: 30%;
+}
+
+.text{
+    margin-left: 25px;
+}
+
+.data{
+    padding: 5% 21%;
+}
+
+.form_fill{
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: hsl(0, 0%, 93%);
+    font-size: 1.15rem;
+    margin-top: 5%;
+    margin-left: 2.5%;
+}
+
+.valueStar{
+    margin-left: 0.5em;
+}
+
+.rating{
+  margin-left: -11.1em;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+    margin-top: 2em;
+    margin-left: -0.5em;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    margin-top: 0%;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.button_send{
+    margin-left: 230px;
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        height: 50em;
+        width: 1em;
+    }
+
+    .logopng{
+        display: none;
+    }
+
+    .box_title{
+        margin-top: 5em;
+        margin-left: 2em;
+        width: 14em;
+    }
+    
+    .box_rec{
+        margin-top: 1em;
+        margin-left: 3em;
+        width: 20em;
+        height: 33em;
+    }
+
+    .rating,
+    .valueStar{
+        font-size: 11px;
+    }
+
+    .rating{
+        margin-left: -5em;
+    }
+
+    .rate{
+        margin-left: -2em;
+        margin-top: 0.2em;
+    }
+
+    .form_fill{
+        margin-left: -5em;
+        width: 20em;
+    }
+
+    .button{
+        margin-top: 1.5em;
+        margin-left: 40%;
+        font-size: 13px;
+        width: 26%;
+    }
+}
