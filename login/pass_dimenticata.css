@@ -1,0 +1,216 @@
+body{
+    --color-primary: #254BE1;
+    --color-primary-dark: #102372;
+    --color-secondary: #6D3686;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+
+    height: 97.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: var(--color-primary);
+    background-size: cover;
+}
+
+.container,
+.form_email,
+.form_codice,
+.form_newpass,
+.form_newpass2{
+   font-family: 'Quicksand', sans-serif;
+}
+
+.container{
+    align-items: center;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #ffffff;
+    width: 120%;
+    height: 30em;
+    margin-top: -15px;
+    margin-left: -10%;
+    float: left;
+}
+
+.form_error{
+    background: #A94442;
+    color: #ffff;
+    opacity: .8;
+    width: 90%;
+    border-radius: 5px;
+    margin: 20px auto;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.form_title{
+    text-align: center;
+    font-size: 50px;
+}
+
+.form_email,
+.form_codice,
+.form_newpass,
+.form_newpass2{
+    width: 80%;
+    margin-left: 40px;
+}
+
+.form_email,
+.form_codice,
+.form_newpass{
+    display: block;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    font-size: 1.25rem;
+}
+
+.form_newpass2{
+    display: block;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+.text_email{
+    margin-left: 6%;
+}
+
+.form_button,
+.form_button2,
+.form_button3{
+    width: 30%;
+    font-family: 'Quicksand', sans-serif;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    margin-top: 70px;
+    margin-left: 35%;
+}
+
+.form_button:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+.form_button2:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+.form_button3:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+.form_back{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form_link:hover{
+    text-decoration: underline;
+}
+
+.form_link_group{
+    margin-top: 9%;
+    margin-left: 6%;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form_logo{
+        display: none;
+    }
+
+    .container,
+    .form_email,
+    .form_codice,
+    .form_button,
+    .form_button2,
+    .form_button3,
+    .form_pass,
+    .form_newpass,
+    .form_newpass2,
+    .form_error,
+    .form_select,
+    .form_type{
+        font-size: 14px;
+    }
+
+    .container{
+        margin-left: 0%;
+        width: 24em;
+        height: 26em;
+    }
+
+    .form_email{
+        margin-left: 1.5em;
+    }
+
+    .form_codice,
+    .form_newpass{
+        margin-top: 3em;
+        margin-left: 2em;
+    }
+
+    .form_newpass2{
+        margin-left: 2em;
+    }
+
+    .form_pass,
+    .form_select,
+    .form_type{
+        margin-left: 2.4em;
+    }
+
+    .form_title{
+        font-size: 30px;
+    }
+
+    .form_button,
+    .form_button2,
+    .form_button3{
+        padding: 0.2em;
+        height: 2.5em;
+        width: 10em;
+        font-size: 14px;
+    }
+
+    .form_button,
+    .form_button2{
+        margin-top: 3em;
+        margin-left: 6.5em;
+    }
+
+    .form_button3{
+        margin-top: 2.5em;
+        margin-left: 8em;
+    }
+
+    .form_link{
+        padding: 0;
+        font-size: 10px;
+    }
+}
