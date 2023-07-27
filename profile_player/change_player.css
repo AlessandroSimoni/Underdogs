@@ -1,0 +1,198 @@
+body{
+    --color-primary: #254BE1;
+    --color-primary-dark: #102372;
+    --border-radius: 4px;
+
+    height: 45.5em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(#254BE1, #254BE1, #102372);
+}
+
+.box_change,
+.button{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box_change{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #ffffff;
+    height: 550px;
+    width: 650px;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.text{
+    margin-left: 30px;
+}
+
+.personal_data{
+    padding: 5% 25%;
+}
+
+.form_alt,
+.form_email,
+.form_cognome,
+.form_nome,
+.form_peso,
+.form_piede,
+.form_pos,
+.form_prov,
+.form_stato{
+    margin-left: 25px;
+    margin-top: 5%;
+}
+
+.form_nome,
+.form_cognome,
+.form_email{
+    width: 205px;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: hsl(0, 0%, 93%);
+    font-size: 1.15rem;
+}
+
+.form_prov{
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    font-size: 1.25rem;
+    width: 205px;
+}
+
+.details_player{
+    padding: 0% 25%;
+}
+
+.form_pos{
+    display: block;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    font-size: 1.25rem;
+    width: 205px;
+}
+
+.form_piede{
+    display: block;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    font-size: 1.25rem;
+    width: 205px;
+}
+
+.form_alt{
+    display: block;
+    width: 205px;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: hsl(0, 0%, 93%);
+    font-size: 1.15rem;
+}
+
+.form_peso{
+    display: block;
+    width: 205px;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: hsl(0, 0%, 93%);
+    font-size: 1.15rem;
+}
+
+.form_stato{
+    display: block;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    font-size: 1.25rem;
+    width: 205px;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    margin-top: 5%;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.button_change{
+    margin-left: 10%;
+    float: left;
+}
+
+.button_back{
+    margin-left: 5%;
+}
+
+.button_delete{
+    margin-right: 10%;
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        height: 88.5vh;
+    }
+
+    .box_change{
+        margin-top: 9em;
+        margin-left: 2.5em;
+        width: 32rem;
+        height: 48rem;
+    }
+
+    .text,
+    .form_alt,
+    .form_nome,
+    .form_cognome,
+    .form_peso,
+    .form_piede,
+    .form_pos,
+    .form_prov,
+    .form_stato,
+    .button_change,
+    .button_back,
+    .button_delete{
+        font-size: 14px;
+    }
+
+    .form_alt,
+    .form_nome,
+    .form_cognome,
+    .form_peso,
+    .form_piede,
+    .form_pos,
+    .form_prov,
+    .form_stato{
+        margin-left: -2.5em;
+    }
+
+    .button{
+        font-size: 12px;
+        width: 6.5em;
+    }
+
+    .button_change{
+        margin-left: 3em;
+    }
+
+    .button_back{
+        margin-left: 0.7em;
+    }
+}

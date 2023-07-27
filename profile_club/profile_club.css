@@ -1,0 +1,111 @@
+body{
+    --color-primary: #254BE1;
+    --color-primary-dark: #102372;
+    --border-radius: 4px;
+
+    height: 81.7vh;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(#254BE1, #254BE1, #102372);
+}
+
+.box_title,
+.box_profile,
+.button,
+.nav_menu{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logopng{
+    position: sticky;
+    position: fixed;
+    top:-2%;
+    left: 1.5%;
+}
+
+.box_title{
+    border-radius: var(--border-radius);
+    width: 700px;
+    margin-top: 8.5%;
+    margin-left: 27%;
+    font-size: 20px;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    box-shadow: 0 0 2px black;
+    text-align: center;
+}
+
+.txt_title{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box_profile{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #ffffff;
+    height: 480px;
+    width: 700px;
+    margin-top: 0.5%;
+    margin-left: 27%;
+}
+
+.details_club{
+    float: left;
+    margin-top: 2.5%;
+    margin-left: 6%;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    margin-top: 2%;
+    margin-left: 39%;
+    background: linear-gradient(to right, #7C23E1, #23C8E1);
+    color: #ffffff;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0 2px black;
+}
+
+.button_change:hover{
+    text-decoration: none;
+    color:#000000;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        height: 86.5vh;
+    }
+
+    .logopng{
+        display: none;
+    }
+
+    .box_title{
+        margin-top: 5em;
+        margin-left: 1.5em;
+        width: 85%;
+    }
+
+    .txt_title{
+        font-size: 20px;
+    }
+
+    .box_profile{
+        margin-left: 2em;
+        width: 85%;
+        height: 78%;
+        overflow-y: auto;
+    }
+    
+    .details_player{
+        margin-left: 4%;
+    }
+
+    .button_change{
+        margin-left: 29%;
+        margin-bottom: 10%;
+    }
+}
